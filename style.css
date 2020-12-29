@@ -1,0 +1,562 @@
+/*
+- Filename:		stlye.css
+- Description:	styling for my website
+- Author:		Melanie Treuhaft
+- Date: 11/21/2020
+*/
+
+html{
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  font-family: "Avenir Light", "Arial Narrow", sans-serif; 
+} 
+
+header{
+  display:grid;
+}
+.wrapper{
+  display:grid;
+}
+h1{
+  place-self: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size:30px;
+}
+
+h2{
+  font-size:20px;
+}
+.video{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.video iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
+/*NAVBAR START*/
+.navbar{
+  display: grid;
+  grid-template-columns: 1fr auto auto auto;
+}
+.navbar div{
+  padding:5px;
+}
+.about .work .contact{
+  place-self: center;
+}
+.logo{
+  justify-self: start;
+}
+.dropdown-content {
+  display: none;
+  position: absolute; /*what does this mean?*/
+  background-color: #f5f5f5;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border: 1px;
+  border-color: #f5f5f5;
+  border-radius: 2px;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 5px 5px;
+  display: block;
+  font-size:12px;
+}
+/*button*/
+.dropbtn{
+  border:none;
+  background-color: white;
+  font-family: "Avenir Light", "Arial Narrow", sans-serif; 
+  outline:none;
+}
+/*button goes bold upon hover*/
+.dropbtn:hover {font-weight: bold;}
+/*contact link*/
+.dropdown a{
+  text-decoration: none;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+/*Reference: W3 Schools https://www.w3schools.com/howto/howto_css_dropdown.asp*/
+/*END NAVBAR*/
+
+/*Footer styling*/
+footer{
+  display: grid;
+}
+footer p{
+  place-self: center;
+  font-size: 10px;
+}
+/*END Footer*/
+
+/*Category styling-Installation*/
+.projectGallery {
+  justify-content:center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
+}
+.project{
+  height: 200px;
+  margin: 0;
+  color: transparent;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align: center;
+  font-style: bold;
+}
+.memory{
+  background-image: url("Cover_images/In_Memory_project_image.jpg");
+  background-size: cover;
+}  
+.evades{
+  background-image: url("Cover_images/TWEU_project_image.jpg");
+  background-size: cover;
+}
+.rosacea{
+  background-image: url("Cover_images/Rosacea_project_image.jpg");
+  background-size: cover;
+}
+.staging{
+  background-image: url("Cover_images/Staging_project_image.jpg");
+  background-size: cover;
+}
+.cast{
+  background-image: url("Cover_images/CAST_project_image.jpg");
+  background-size: cover;
+}
+.non-linear{
+  background-image: url("Cover_images/Non-Linear-Fallout_project_image.jpg");
+  background-size: cover;
+}
+.WAWWM{
+  background-image: url("Cover_images/WAWWM_project_image.jpg");
+  background-size: cover;
+}
+.gss{
+  background-image: url("Cover_images/GSS_project_image.jpg");
+  background-size: cover;
+}
+.project:hover {color:#FFFFFF; opacity:.7;}
+/* 
+.project:hover span {
+  background: black, ;
+}
+/*END Category styling*/
+
+/*Painting Category styling*/
+.grid{
+  background-image: url("Cover_images/Grid_coverimage.jpg");
+  background-size: cover;
+}  
+.dots{
+  background-image: url("Cover_images/Dot_coverimage.jpg");
+  background-size: cover;
+}
+.glass{
+  background-image: url("Cover_images/Glass_coverimage.jpg");
+  background-size: cover;
+}
+.watercolors{
+  background-image: url("Cover_images/Watercolor_coverimage.jpg");
+  background-size: cover;
+}
+.dust{
+  background-image: url("Cover_images/Dust_coverimage.jpg");
+  background-size: cover;
+}
+.GFAL{
+  background-image: url("Cover_images/GFALstudios_coverimage.jpg");
+  background-size: cover;
+}
+.CAandChicago{
+  background-image: url("Cover_images/CA_coverimage.jpg");
+  background-size: cover;
+}
+
+.project:hover {color:#FFFFFF; opacity:.7;}
+/* 
+.project:hover span {
+  background: black, ;
+}
+/*END Painting category styling*/
+
+/*Project styling*/
+.galleryWrapper{
+  display:grid;
+  grid-gap:30px;
+  margin:30px;
+}
+.galleryWrapper p{
+  margin:0px;
+  text-align: center;
+}
+.galleryWrapper h2{
+
+  text-align: center;
+}
+.imageGallery {
+  justify-content:center;
+  display: grid;
+  grid-gap:10px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+}
+.imageGallery a{
+  place-self: center;
+}
+
+/*END Project styling*/
+
+/*Artist statement styling*/
+/*.artist_statement_wrapper p{
+  text-indent: 20px;
+} */
+/*END Artist statement styling*/
+
+/*CV styling*/
+.education{
+  display: grid;
+  grid-template-columns:1fr 3fr 2fr 4fr;
+}
+.exhibitions{
+  display: grid;
+  grid-template-columns:1fr 2fr 4fr 2fr;
+}
+.teaching{
+  display: grid;
+  grid-template-columns:1fr 2fr 4fr 2fr;
+}
+.groupEx{
+  display: grid;
+  grid-template-columns:1fr 3fr 3fr 2fr;
+}
+.experience{
+  display: grid;
+  grid-template-columns:1fr 3fr 3fr 2fr;
+}
+.residencies{
+  display: grid;
+  grid-template-columns:1fr 4fr 2fr;
+}
+.lectures{
+  display: grid;
+  grid-template-columns:1fr 4fr 2fr;
+}
+.awards{
+  display: grid;
+  grid-template-columns:1fr 7fr;
+}
+.volunteer {
+  display: grid;
+  grid-template-columns:1fr 2fr 2fr 1fr;
+}
+.cvwrapper{
+  margin:30px;
+}
+.cvwrapper p{
+  margin: 3px;
+}
+/*END CV styling*/
+
+/*Artist Statement*/
+#artist_statement{
+  margin:30px;
+}
+/*END Artist Statement*/
+
+/*News styling*/
+#news{
+  text-shadow: 2px 2px #F25375; 
+  line-height: 40px; 
+  font-style: oblique;
+} 
+#news_wrapper{
+  display: grid;
+  
+}
+#news_wrapper p{
+  text-align: center;
+}
+/*END News styling*/
+
+/*Video page styling*/
+#videoPage{
+  display: grid;
+  grid-gap: 20px;
+}
+#videoPage iframe{
+  justify-self:center;
+}
+/*END Video page styling*/
+
+/*Scenic Art table*/
+#scenic_art_resume{
+  margin:30px;
+}
+/*END Scenic Art*/
+
+/*CONTACT FORM STYLING*/
+#contact-wrapper{
+  display:grid;
+}
+form {
+  display: grid;
+  padding: 1em;
+  background: #f9f9f9;
+  border 1px solid #c1c1c1;
+  margin: 2rem auto 0 auto;
+  max-width: 500px;
+}
+input:focus{
+  outline: 1px solid skyblue;
+}
+textarea:focus{
+  outline: 1px solid skyblue;
+}
+input textarea{
+  margin: 10px;
+}
+#send{
+  margin: 10px auto 0 auto;
+  max-width: 200px;
+}
+#social{
+  place-self:center;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+/*END CONTACT FORM STYLING*/
+
+/*LIGHTBOX*/
+body.lb-disable-scrolling {
+  overflow: hidden;
+}
+.lightboxOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: black;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+  display: none;
+}
+
+.lightbox {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  text-align: center;
+  line-height: 0;
+  font-weight: normal;
+  outline: none;
+}
+
+.lightbox .lb-image {
+  display: block;
+  height: auto;
+  max-width: inherit;
+  max-height: none;
+  border-radius: 3px;
+
+  /* Image border */
+  border: 4px solid white;
+}
+
+.lightbox a img {
+  border: none;
+}
+
+.lb-outerContainer {
+  position: relative;
+  *zoom: 1;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 4px;
+
+  /* Background color behind image.
+     This is visible during transitions. */
+  background-color: white;
+}
+
+.lb-outerContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.lb-loader {
+  position: absolute;
+  top: 43%;
+  left: 0;
+  height: 25%;
+  width: 100%;
+  text-align: center;
+  line-height: 0;
+}
+
+.lb-cancel {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+  background: url(images/loading.gif) no-repeat;
+}
+
+.lb-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+.lb-container > .nav {
+  left: 0;
+}
+
+.lb-nav a {
+  outline: none;
+  background-image: url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+}
+
+.lb-prev, .lb-next {
+  height: 100%;
+  cursor: pointer;
+  display: block;
+}
+
+.lb-nav a.lb-prev {
+  width: 34%;
+  left: 0;
+  float: left;
+  background: url(images/prev.png) left 48% no-repeat;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: opacity 0.6s;
+  -moz-transition: opacity 0.6s;
+  -o-transition: opacity 0.6s;
+  transition: opacity 0.6s;
+}
+
+.lb-nav a.lb-prev:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+.lb-nav a.lb-next {
+  width: 64%;
+  right: 0;
+  float: right;
+  background: url(images/next.png) right 48% no-repeat;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: opacity 0.6s;
+  -moz-transition: opacity 0.6s;
+  -o-transition: opacity 0.6s;
+  transition: opacity 0.6s;
+}
+
+.lb-nav a.lb-next:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+.lb-dataContainer {
+  margin: 0 auto;
+  padding-top: 5px;
+  *zoom: 1;
+  width: 100%;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.lb-dataContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.lb-data {
+  padding: 0 4px;
+  color: #ccc;
+}
+
+.lb-data .lb-details {
+  width: 85%;
+  float: left;
+  text-align: left;
+  line-height: 1.1em;
+}
+
+.lb-data .lb-caption {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1em;
+}
+
+.lb-data .lb-caption a {
+  color: #4ae;
+}
+
+.lb-data .lb-number {
+  display: block;
+  clear: left;
+  padding-bottom: 1em;
+  font-size: 12px;
+  color: #999999;
+}
+
+.lb-data .lb-close {
+  display: block;
+  float: right;
+  width: 30px;
+  height: 30px;
+  background: url(images/close.png) top right no-repeat;
+  text-align: right;
+  outline: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+.lb-data .lb-close:hover {
+  cursor: pointer;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+
+/*For mobile, Change category to try to make names of shows visible because no one can hover
+Also, change font for mobile, it goes directly to Arial, looks clunky*/
+@media (max-width: 380px) {
+  .project{
+  color: #FFFFFF;
+  }
+@media (min-width: 381px) {
+  .project:hover {color:#FFFFFF; opacity:.7;}
+}

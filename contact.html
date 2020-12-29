@@ -1,0 +1,45 @@
+<!--
+- Filename:		contact
+- Description:	Single contact page (not intended as a template)
+- Author:		Melanie Treuhaft
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+  <title>Contact</title>
+</head>
+
+<body>
+  <nav id="placeholder"></nav>
+  <section id=contact-wrapper>
+    <header>
+      <h1>Contact</h1>
+    </header>  
+    <section>
+      <form action="contact.html" method:'get' id="email">
+        Name: <input type="text" name="item" id='item'>
+        Email Address: <input type="text" name="emailAd" id='emailAd'>
+        Message: <textarea name="message" id="message"></textarea>
+        <input id="send" type="submit" value="Send">
+      </form>
+    </section>
+    <section id='social'>
+      <!-- Add icon library -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- Add font awesome icons -->
+      <a href="https://www.instagram.com/melanie_treuhaft/" target="_blank" class="fa fa-instagram"></a>
+      <a href="https://www.facebook.com/melanie.treuhaft/" target="_blank" class="fa fa-facebook"></a>
+      <a href="https://vimeo.com/user40330148" target="_blank" class="fa fa-vimeo"></a>
+      <a href="https://www.youtube.com/channel/UC4-bV2Z_1u7gtjxV7dDRJYQ/videos?view_as=subscriber" target="_blank" class="fa fa-youtube"></a>
+    </section>
+  </section>
+</body>
+
+<footer id="foot"></footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</html>
