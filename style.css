@@ -260,6 +260,9 @@ position: absolute;
 .gallery_video{
   justify-self: center;
 }
+#explanation {
+  text-align: left;
+}
 /*END Project styling*/
 
 
