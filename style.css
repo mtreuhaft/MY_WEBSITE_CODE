@@ -4,13 +4,11 @@
 - Author:		Melanie Treuhaft
 - Date: 11/21/2020
 */
-
 html{
   box-sizing: border-box;
   background-color: #FFFFFF;
   font-family: "Avenir Light", "Arial Narrow", sans-serif; 
 } 
-
 header{
   display:grid;
 }
@@ -24,7 +22,6 @@ h1{
   text-align: center;
   font-size:30px;
 }
-
 h2{
   font-size:20px;
 }
@@ -212,6 +209,11 @@ position: absolute;
   background-size: cover;
   position:relative;
 }
+/*.sblue{
+  background-image: url("Cover_images/Subdue_Blue_coverimage.jpg");
+  background-size: cover;
+  position:relative;
+}*/
 .dust{
   background-image: url("Cover_images/Dust_coverimage.jpg");
   background-size: cover;
@@ -232,7 +234,6 @@ position: absolute;
   background-size: cover;
   position:relative;
 }
-
 /*END Painting category styling*/
 
 /*Project styling*/
@@ -264,7 +265,6 @@ position: absolute;
   text-align: left;
 }
 /*END Project styling*/
-
 
 /*CV styling*/
 .education{
@@ -315,9 +315,6 @@ position: absolute;
 #artist_statement{
   margin:30px;
 }
-/*.artist_statement_wrapper p{
-  text-indent: 20px;
-} */
 /*END Artist Statement*/
 
 /*News styling*/
@@ -328,7 +325,6 @@ position: absolute;
 } 
 #news_wrapper{
   display: grid;
-  
 }
 #news_wrapper p{
   text-align: center;
