@@ -249,6 +249,9 @@ position: absolute;
 .galleryWrapper h2{
   text-align: center;
 }
+.galleryWrapper h3{
+  text-align: center;
+}
 .imageGallery {
   justify-content:center;
   display: grid;
