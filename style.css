@@ -5,6 +5,7 @@
 - Date: 11/21/2020
 */
 html{
+  display: grid;
   box-sizing: border-box;
   background-color: #FFFFFF;
   font-family: "Avenir Light", "Arial Narrow", sans-serif; 
@@ -209,11 +210,11 @@ position: absolute;
   background-size: cover;
   position:relative;
 }
-/*.sblue{
+.sblue{
   background-image: url("Cover_images/Subdue_Blue_coverimage.jpg");
   background-size: cover;
   position:relative;
-}*/
+}
 .dust{
   background-image: url("Cover_images/Dust_coverimage.jpg");
   background-size: cover;
@@ -264,7 +265,7 @@ position: absolute;
 .gallery_video{
   justify-self: center;
 }
-#explanation {
+#explanation{
   text-align: left;
 }
 /*END Project styling*/
@@ -305,6 +306,10 @@ position: absolute;
 .volunteer {
   display: grid;
   grid-template-columns:1fr 2fr 2fr 1fr;
+}
+.cont_ed{
+  display: grid;
+  grid-template-columns:1fr 4fr 2fr;
 }
 .cvwrapper{
   margin:30px;
