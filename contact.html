@@ -27,18 +27,18 @@
         Message: <textarea name="message" id="message"></textarea>
         <input id="send" type="submit" value="Send">
       </form> -->
-      <form action="/contact.html" name="contact" method="POST" data-netlify="true">
+      <form action="/contact.html" name="contact" method="POST" data-netlify="true" id="email">
         <p>
-          <label>Name: <input type="text" name="name" /></label>   
+          <label>Name: <input type="text" name="name" id="item"/></label>
         </p>
         <p>
-          <label>Email: <input type="email" name="email" /></label>
+          <label>Email: <input type="email" name="email" id="emailAd"/></label>
         </p>
         <p>
-          <label>Message: <textarea name="message"></textarea></label>
+          <label>Message: <textarea name="message" id="message"></textarea></label>
         </p>
         <p>
-          <button type="submit">Send</button>
+          <button id="send" type="submit">Send</button>
         </p>
       </form>
     </section>
