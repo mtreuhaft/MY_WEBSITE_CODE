@@ -5,7 +5,7 @@ $('#foot').load('footer.html');
 $('#send').on('click', function(e) {
   e.preventDefault();
   const form = new FormData(document.getElementById('email'))
-  await fetch('/', {
+  fetch('/', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
     body: new URLSearchParams(form).toString()
