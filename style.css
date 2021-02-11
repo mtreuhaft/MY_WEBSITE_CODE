@@ -269,6 +269,9 @@ position: absolute;
 #explanation{
   text-align: left;
 }
+video{
+  place-self: center;
+}
 /*END Project styling*/
 
 /*CV styling*/
