@@ -176,6 +176,77 @@ footer p{
   background-size: cover;
   position:relative;
 }
+.butcher{
+  background-image: url("Cover_images/Butchershop_coverimage.jpg");
+  background-size: cover;
+  position:relative;
+}
+.crucible{
+  background-image: url("Cover_images/Crucible_coverimage.jpg");
+  background-size: cover;
+  position:relative;
+}
+.laboheme{
+  background-image: url("Cover_images/Laboheme_coverimage.jpg");
+  background-size: cover;
+  position:relative;
+}
+.magpie{
+  background-image: url("Cover_images/Magpie_coverimage.jpg");
+  background-size: cover;
+  position:relative;
+}
+.sweeney{
+  background-image: url("Cover_images/Sweeney_coverimage.jpg");
+  background-size: cover;
+  position:relative;
+}
+.treasure{
+  background-image: url("Cover_images/TreasureIsland_coverimage.jpg");
+  background-size: cover;
+  position:relative;
+}
+.macbeth{
+  background-image: url("Cover_images/Macbeth_coverimage.jpg");
+  background-size: cover;
+  position:relative;
+}
+.figaro{
+  background-image: url("Cover_images/Figaro_coverimage.jpg");
+  background-size: cover;
+  position:relative;
+}
+.pirates{
+  background-image: url("Cover_images/Penzance_coverimage.jpg");
+  background-size: cover;
+  position:relative;
+}
+.amelie{
+  background-image: url("Cover_images/Amelie_coverimage.jpg");
+  background-size: cover;
+  position:relative;
+}
+.flute{
+  background-image: url("Cover_images/MagicFlute_coverimage.jpg");
+  background-size: cover;
+  position:relative;
+}
+.herring{
+  background-image: url("Cover_images/AlbertHerring_coverimage.jpg");
+  background-size: cover;
+  position:relative;
+}
+.hounds{
+  background-image: url("Cover_images/HB_coverimage.jpg");
+  background-size: cover;
+  position:relative;
+}
+.tuna{
+  background-image: url("Cover_images/Tuna_coverimage.jpg");
+  background-size: cover;
+  position:relative;
+}
+
 .project:hover {color:#FFFFFF; opacity:.7;}
 
 .color_overlay {
