@@ -176,6 +176,11 @@ footer p{
   background-size: cover;
   position:relative;
 }
+.wendell{
+  background-image: url("Cover_images/Wendell_coverimage.jpg");
+  background-size: cover;
+  position:relative;
+}
 .butcher{
   background-image: url("Cover_images/Butchershop_coverimage.jpg");
   background-size: cover;
@@ -242,7 +247,7 @@ footer p{
   position:relative;
 }
 .tuna{
-  background-image: url("Cover_images/Tuna_coverimage.jpg");
+  background-image: url("Cover_images/Tuna_cover.jpg");
   background-size: cover;
   position:relative;
 }
